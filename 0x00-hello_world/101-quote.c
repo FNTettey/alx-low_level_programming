@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
  *This program prints the following quote
- * main - Entry point
- * Return: Always 1 (Success)
- */
+ * and that piece of art is useful" - Dora Korpar, 2015-10-19
+ * Returns1
+ **/
 int main(void)
 {
 fprintf(stderr,
