@@ -11,7 +11,7 @@ int main(void)
 {
 int x;
   /* My code */
-for (x = 'A'; x <= 'Z'; x++)
+for (x = 'a'; x <= 'z'; x++)
 {
 x = tolower(x);
 putchar(x);
