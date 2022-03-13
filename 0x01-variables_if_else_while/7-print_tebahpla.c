@@ -9,7 +9,7 @@
  **/
 int main(void)
 {
-int x;
+char x;
   /* My code */
 for (x = 'z'; x <= 'a'; x--)
 {
