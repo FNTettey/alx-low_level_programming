@@ -2,10 +2,12 @@
 #include<stdio.h>
 #include <time.h>
 /**
- *prints all single digit numbers of base 10 starting from 0
- **/
+ * prints all single digit numbers of base 10 starting from 0
+ * main - Entry point
+ * Return: Always 0 (sucess)
+ */
 int main(void)
 {
-printf("123456789\n");
+printf("0123456789\n");
 return (0);
 }
