@@ -12,7 +12,7 @@ int x;
  /* My code */
 for (x = 0; x <= 9; x++)
 {
-putchar(x);
+putchar(x+'0');
 }
 putchar('\n');
 return (0);
