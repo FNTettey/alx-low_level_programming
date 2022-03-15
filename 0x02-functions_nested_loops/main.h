@@ -1,5 +1,5 @@
 #include<stdio.h>
+#include<unistd.h>
+int _putchar(char c);
 void print_alphabet(void);
-#include<ctype.h>
-#include<stdlib.h>
-#include<time.h>
+
