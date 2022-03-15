@@ -5,9 +5,7 @@
  * Return: Always 0.
  */
 void print_alphabet(void)
-/**
- *description: Prints the alphabet in lowercase 
-**/
+/*description: Prints the alphabet in lowercase */
 {
 char n;
 for (n = 'a'; n <= 'z'; n++)
