@@ -6,6 +6,5 @@
  **/
 int _abs(int n)
 {
-_putchar(abs(n));
-return (0);
+return (abs(n));
 }
