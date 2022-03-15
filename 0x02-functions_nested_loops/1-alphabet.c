@@ -1,3 +1,4 @@
+#include"main.h"
 /**
  * main - check the code
  * description: Prints the alphabet in lowercase
@@ -5,13 +6,13 @@
  */
 int main(void)
 {
-int print_alphabet(void)
+void print_alphabet(void)
 {
 int n;
-for (x = 'A'; x <= 'z'; x++)
+n = "a"
+for (n = 'a'; x <= 'z'; x++)
 {
-x = tolower(x);
-putchar(x);
+putchar(n);
 }
 putchar("\n")
 return (0);
