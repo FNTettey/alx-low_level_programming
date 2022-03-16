@@ -13,6 +13,7 @@ for (r = 0; r <= 9; r++)
 {
 for (c = 0; c <= 9; c++)
 {
+n = (r * c);
 printf(n);
 _putchar(',');
 _putchar(' ');
