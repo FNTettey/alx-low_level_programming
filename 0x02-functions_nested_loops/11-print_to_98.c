@@ -14,7 +14,7 @@ if (n > 98)
 {
 while (n > 97)
 {
-printf("%d", n);
+putchar(n + '0');
 if (n != 98)
 {
 putchar(',');
@@ -27,7 +27,7 @@ else if (n < 98)
 {
 while (n < 99)
 {
-printf("%d", n);
+putchar(n + '0');
 if (n != 98)
 {
 putchar(',');
