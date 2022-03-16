@@ -14,9 +14,9 @@ for (r = 0; r <= 9; r++)
 for (c = 0; c <= 9; c++)
 {
 n = (r * c);
-printf(n + '0');
-printf(',');
-printf(' ');
+_putchar(n + '0');
+_putchar(',');
+_putchar(' ');
 }
 }
 }
