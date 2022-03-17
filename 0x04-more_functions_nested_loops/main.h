@@ -6,3 +6,4 @@ int _isupper(int c);
 #include <stdlib.h>
 #include<math.h>
 int _isdigit(int c);
+int mul(int a, int b);
