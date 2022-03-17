@@ -1,22 +1,26 @@
-#include"main.h"
+#include "main.h"
 /**
  *  main - Entry point
  * description: Prints 0-14 ten times
  * Return: void
- */
+*/
 void more_numbers(void)
 {
-int k;
-k = 0;
-for (k = 0; k <= 9; k++)
+int i, j;
+for (i = 0; i <= 10; i++)
 {
-int j;
-j = 0;
-for (j = 0; j <= 14; j++)
+for (j = 0; j < 15; j++)
 {
-_putchar(j + '0');
+if (j >= 10)
+{
+_putchar(j / 10 + 48);
 }
+_putchar(j % 10 + 48);
+if (j == 14)
+{
 _putchar('\n');
 }
-_putchar('\n');
 }
+}
+}
+
