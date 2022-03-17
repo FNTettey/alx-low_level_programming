@@ -5,3 +5,4 @@ int _isupper(int c);
 #include<ctype.h>
 #include <stdlib.h>
 #include<math.h>
+int _isdigit(int c);
