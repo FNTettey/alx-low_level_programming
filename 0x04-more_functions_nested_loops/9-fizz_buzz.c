@@ -30,5 +30,6 @@ printf("%d", i);
 putchar(32);
 }
 }
+printf('\n');
 return (0);
 }
