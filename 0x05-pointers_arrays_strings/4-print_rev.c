@@ -13,7 +13,7 @@ int length;
 int k;
 int rev[100];
 length = strlen(s);
-for (j = length ; j >= 0; j--)
+for (j = length ; j >= 1; j--)
 {
 rev[j] = s[i];
 i++;
