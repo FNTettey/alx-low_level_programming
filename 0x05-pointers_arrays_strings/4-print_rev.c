@@ -11,7 +11,7 @@ int i = 0;
 int j;
 int length;
 int k;
-int rev[100];
+int rev[500];
 length = strlen(s);
 for (j = length ; j >= 1; j--)
 {
