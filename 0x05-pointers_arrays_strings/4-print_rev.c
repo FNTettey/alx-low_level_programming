@@ -18,7 +18,7 @@ for (j = length ; j >= 1; j--)
 rev[j] = s[i];
 i++;
 }
-k = 0;
+k = 1;
 while (k <= length)
 {
 _putchar(rev[k]);
