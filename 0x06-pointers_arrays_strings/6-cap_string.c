@@ -14,7 +14,7 @@ for (i = 0; n[i] != '\0'; i++)
 {
 for (j = 0; separators[j] != '\0'; j++)
 {
-if (n[i] == separators[j] && n[i + 1] >= 97 && n[i + 1] <=122)
+if (n[i] == separators[j] && n[i + 1] >= 97 && n[i + 1] <= 122)
 {
 n[i + 1] = n[i + 1] - 32;
 }
