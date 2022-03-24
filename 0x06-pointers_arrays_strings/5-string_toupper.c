@@ -15,5 +15,5 @@ if (s[i] >= 'a' && s[i] <= 'z')
 s[i] -= 32;
 }
 }
-return(s);
+return (s);
 }
