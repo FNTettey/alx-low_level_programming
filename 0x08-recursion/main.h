@@ -1,0 +1,8 @@
+#include <unistd.h>
+#include <stdio.h>
+#include<ctype.h>
+#include <stdlib.h>
+#include<math.h>
+#include<string.h>
+int _putchar(char c);
+void _puts_recursion(char *s);
