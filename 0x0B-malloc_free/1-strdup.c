@@ -21,13 +21,13 @@ while (str[n] != '\0')
 n++;
 }
 strnew = (char *)malloc(n + 1 * sizeof(char));
-if (strnew == NULL)
+if (strnew != NULL)
 {
 for (i = 0; str[i] != '\0'; i++)
 {
 strnew[i] = str[i];
 }
-strnew[n] = '\0';
+strnew[n + 1] = '\0';
 }
 }
 return (strnew);
