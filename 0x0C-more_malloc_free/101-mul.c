@@ -9,7 +9,7 @@
  */
 int main(int argc, char *argv[])
 {
-int product;
+unsigned long product;
 int i, j;
 if (argc != 3)
 {
@@ -31,6 +31,6 @@ exit(98);
 }
 }
 product = atol(argv[1]) *  atol(argv[2]);
-printf("%u\n", product);
+printf("%lu\n", product);
 return (0);
 }
