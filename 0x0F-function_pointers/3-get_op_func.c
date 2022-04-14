@@ -21,16 +21,8 @@ i = 0;
 while (i < 5)
 {
 if (s[0] == ops[i].op[0])
-{
 return ((ops[i].f));
-break;
-}
 i++;
-}
-if (i == 5)
-{
-printf("Error\n");
-exit(99);
 }
 return (NULL);
 }
