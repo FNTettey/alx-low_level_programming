@@ -6,4 +6,5 @@ unsigned int _pow(unsigned int num, unsigned int n);
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
+void print_binary(unsigned long int n);
 #endif
