@@ -1,1 +1,0 @@
-A group project where the aim is to recreate a simple linux shell. 
